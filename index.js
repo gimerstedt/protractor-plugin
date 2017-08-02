@@ -59,7 +59,7 @@ function addI18nLocators() {
 function loadAndWaitForAureliaPage(pageUrl) {
   function onAureliaComposed(onReady) {
     var aa = document.querySelector("[aurelia-app]");
-    if (!!aa && a.aurelia) {
+    if (!!aa && aa.aurelia) {
       // aurelia is already loaded and available:
       onReady();
     } else {
